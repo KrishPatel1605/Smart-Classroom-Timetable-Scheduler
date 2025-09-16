@@ -1,0 +1,111 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="600" fill="white"></rect>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-size="16" font-weight="bold" fill="#2563eb">
+    Timetable Optimization System Architecture
+  </text>
+  
+  <!-- Frontend Layer -->
+  <rect x="20" y="50" width="360" height="60" rx="8" fill="#3b82f6" stroke="#1d4ed8" stroke-width="2"></rect>
+  <text x="200" y="70" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Frontend Layer</text>
+  <text x="200" y="85" text-anchor="middle" font-size="10" fill="white">React.js, Node.js, Tailwind CSS</text>
+  <text x="200" y="98" text-anchor="middle" font-size="10" fill="white">Progressive Web App (PWA), Mobile-Responsive</text>
+  
+  <!-- API Gateway -->
+  <rect x="20" y="130" width="360" height="40" rx="6" fill="#10b981" stroke="#059669" stroke-width="2"></rect>
+  <text x="200" y="145" text-anchor="middle" font-size="12" font-weight="bold" fill="white">API Gateway</text>
+  <text x="200" y="160" text-anchor="middle" font-size="10" fill="white">Node.js, Express.js, JWT Authentication</text>
+  
+  <!-- Core Services -->
+  <rect x="20" y="190" width="170" height="220" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"></rect>
+  <text x="105" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">Core Services</text>
+  
+  <!-- Optimization Engine -->
+  <rect x="30" y="220" width="150" height="80" rx="6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1"></rect>
+  <text x="105" y="235" text-anchor="middle" font-size="11" font-weight="bold" fill="#92400e">Optimization Engine</text>
+  <text x="105" y="250" text-anchor="middle" font-size="9" fill="#92400e">Multi-Stage Process:</text>
+  <text x="105" y="262" text-anchor="middle" font-size="8" fill="#92400e">1. Data Preprocessing</text>
+  <text x="105" y="274" text-anchor="middle" font-size="8" fill="#92400e">2. Initial Solution (Greedy)</text>
+  <text x="105" y="286" text-anchor="middle" font-size="8" fill="#92400e">3. Genetic Algorithm</text>
+  <text x="105" y="298" text-anchor="middle" font-size="8" fill="#92400e">4. Post-Processing</text>
+  
+  <!-- Constraint Engine -->
+  <rect x="30" y="310" width="150" height="40" rx="6" fill="#8b5cf6" stroke="#7c3aed" stroke-width="1"></rect>
+  <text x="105" y="325" text-anchor="middle" font-size="11" font-weight="bold" fill="white">CSP Engine</text>
+  <text x="105" y="340" text-anchor="middle" font-size="9" fill="white">Constraint Satisfaction</text>
+  
+  <!-- Schedule Manager -->
+  <rect x="30" y="360" width="150" height="40" rx="6" fill="#06b6d4" stroke="#0891b2" stroke-width="1"></rect>
+  <text x="105" y="375" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Schedule Manager</text>
+  <text x="105" y="390" text-anchor="middle" font-size="9" fill="white">Timetable Generation</text>
+  
+  <!-- Communication Services -->
+  <rect x="210" y="190" width="170" height="220" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"></rect>
+  <text x="295" y="210" text-anchor="middle" font-size="12" font-weight="bold" fill="#374151">Communication Services</text>
+  
+  <!-- WhatsApp Integration -->
+  <rect x="220" y="220" width="150" height="40" rx="6" fill="#25d366" stroke="#128c7e" stroke-width="1"></rect>
+  <text x="295" y="235" text-anchor="middle" font-size="11" font-weight="bold" fill="white">WhatsApp API</text>
+  <text x="295" y="250" text-anchor="middle" font-size="9" fill="white">Automated Distribution</text>
+  
+  <!-- Email Service -->
+  <rect x="220" y="270" width="150" height="40" rx="6" fill="#dc2626" stroke="#b91c1c" stroke-width="1"></rect>
+  <text x="295" y="285" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Email Service</text>
+  <text x="295" y="300" text-anchor="middle" font-size="9" fill="white">Gmail API, EmailJS</text>
+  
+  <!-- Notification System -->
+  <rect x="220" y="320" width="150" height="40" rx="6" fill="#7c3aed" stroke="#6d28d9" stroke-width="1"></rect>
+  <text x="295" y="335" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Notification System</text>
+  <text x="295" y="350" text-anchor="middle" font-size="9" fill="white">Real-time Updates</text>
+  
+  <!-- Mobile Distribution -->
+  <rect x="220" y="370" width="150" height="30" rx="6" fill="#f97316" stroke="#ea580c" stroke-width="1"></rect>
+  <text x="295" y="385" text-anchor="middle" font-size="11" font-weight="bold" fill="white">Mobile Distribution</text>
+  
+  <!-- Data Layer -->
+  <rect x="20" y="430" width="360" height="80" rx="8" fill="#1f2937" stroke="#111827" stroke-width="2"></rect>
+  <text x="200" y="450" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Data Layer</text>
+  
+  <!-- Databases -->
+  <rect x="30" y="460" width="100" height="40" rx="6" fill="#059669" stroke="#047857" stroke-width="1"></rect>
+  <text x="80" y="475" text-anchor="middle" font-size="10" font-weight="bold" fill="white">MongoDB</text>
+  <text x="80" y="490" text-anchor="middle" font-size="8" fill="white">Primary Database</text>
+  
+  <rect x="140" y="460" width="100" height="40" rx="6" fill="#0891b2" stroke="#0e7490" stroke-width="1"></rect>
+  <text x="190" y="475" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Supabase</text>
+  <text x="190" y="490" text-anchor="middle" font-size="8" fill="white">Auth &amp; Real-time</text>
+  
+  <rect x="250" y="460" width="100" height="40" rx="6" fill="#dc2626" stroke="#b91c1c" stroke-width="1"></rect>
+  <text x="300" y="475" text-anchor="middle" font-size="10" font-weight="bold" fill="white">Redis Cache</text>
+  <text x="300" y="490" text-anchor="middle" font-size="8" fill="white">Session &amp; Cache</text>
+  
+  <!-- Cloud Infrastructure -->
+  <rect x="20" y="530" width="360" height="50" rx="8" fill="#ff9500" stroke="#ff8c00" stroke-width="2"></rect>
+  <text x="200" y="545" text-anchor="middle" font-size="12" font-weight="bold" fill="white">Cloud Infrastructure</text>
+  <text x="200" y="560" text-anchor="middle" font-size="10" fill="white">AWS (S3, EC2, CloudFront), Docker, Kubernetes</text>
+  <text x="200" y="572" text-anchor="middle" font-size="10" fill="white">GitHub CI/CD Pipeline</text>
+  
+  <!-- Connection Lines -->
+  <!-- Frontend to API Gateway -->
+  <line x1="200" y1="110" x2="200" y2="130" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  
+  <!-- API Gateway to Services -->
+  <line x1="150" y1="170" x2="105" y2="190" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  <line x1="250" y1="170" x2="295" y2="190" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  
+  <!-- Services to Data Layer -->
+  <line x1="105" y1="410" x2="105" y2="430" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  <line x1="295" y1="410" x2="295" y2="430" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  
+  <!-- Data Layer to Cloud -->
+  <line x1="200" y1="510" x2="200" y2="530" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"></line>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"></polygon>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,57 @@
+<svg width="400" height="800" viewBox="0 0 400 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage 1 -->
+  <rect x="20" y="50" width="360" height="120" rx="15" fill="#4F7CFF" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="85" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Stage 1 - Data Preprocessing</text>
+  <text x="40" y="105" font-family="Arial" font-size="12" fill="white">Input validation and normalization</text>
+  <text x="40" y="125" font-family="Arial" font-size="12" fill="white">Constraint analysis and feasibility checking</text>
+  <text x="40" y="145" font-family="Arial" font-size="12" fill="white">Resource availability assessment</text>
+
+  <!-- Arrow 1 -->
+  <path d="M200 170 L200 190" stroke="#666666" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 2 -->
+  <rect x="20" y="200" width="360" height="120" rx="15" fill="#28C76F" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="235" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Stage 2 - Initial Solution Generation</text>
+  <text x="40" y="255" font-family="Arial" font-size="12" fill="white">Greedy Algorithm for priority-based scheduling</text>
+  <text x="40" y="275" font-family="Arial" font-size="12" fill="white">Backtracking for constraint satisfaction</text>
+  <text x="40" y="295" font-family="Arial" font-size="12" fill="white">Multiple initial solutions for diversity</text>
+
+  <!-- Arrow 2 -->
+  <path d="M200 320 L200 340" stroke="#666666" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 3 -->
+  <rect x="20" y="350" width="360" height="140" rx="15" fill="#FFC107" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="385" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Stage 3 - Genetic Algorithm Optimization</text>
+  <text x="40" y="405" font-family="Arial" font-size="12" fill="white">Population Size: 50-100 individuals</text>
+  <text x="40" y="425" font-family="Arial" font-size="12" fill="white">Generations: 100-500 iterations</text>
+  <text x="40" y="445" font-family="Arial" font-size="12" fill="white">Adaptive mutation rate: 0.05-0.3</text>
+  <text x="40" y="465" font-family="Arial" font-size="12" fill="white">Elite retention of top 5 solutions</text>
+
+  <!-- Arrow 3 -->
+  <path d="M200 490 L200 510" stroke="#666666" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 4 -->
+  <rect x="20" y="520" width="360" height="120" rx="15" fill="#EA5455" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="555" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Stage 4 - Post-Processing</text>
+  <text x="40" y="575" font-family="Arial" font-size="12" fill="white">Solution validation and quality scoring</text>
+  <text x="40" y="595" font-family="Arial" font-size="12" fill="white">Alternative suggestion generation</text>
+  <text x="40" y="615" font-family="Arial" font-size="12" fill="white">Performance metrics calculation</text>
+
+  <!-- Arrow 4 -->
+  <path d="M200 640 L200 660" stroke="#666666" stroke-width="3" marker-end="url(#arrowhead)"/>
+
+  <!-- Stage 5 -->
+  <rect x="20" y="670" width="360" height="120" rx="15" fill="#7367F0" stroke="#ffffff" stroke-width="2"/>
+  <text x="200" y="705" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">Stage 5 - Automated Distribution</text>
+  <text x="40" y="725" font-family="Arial" font-size="12" fill="white">Automated timetable formatting for mobile viewing</text>
+  <text x="40" y="745" font-family="Arial" font-size="12" fill="white">Scheduled delivery with confirmation tracking</text>
+  <text x="40" y="765" font-family="Arial" font-size="12" fill="white">Real-time update notifications</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666666"/>
+    </marker>
+  </defs>
+</svg>
