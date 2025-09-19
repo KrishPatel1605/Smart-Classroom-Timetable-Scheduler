@@ -123,9 +123,9 @@ export function UserManagement() {
   const [users, setUsers] = useState<User[]>([
     {
       id: "1",
-      name: "John Admin",
-      email: "admin@university.edu",
-      phone: "+1-555-0001",
+      name: "Mr. Vaibhav",
+      email: "vaibhav@university.edu",
+      phone: "98XXXXXX81",
       role: "admin",
       department: "Administration",
       status: "active",
@@ -136,9 +136,9 @@ export function UserManagement() {
     },
     {
       id: "2",
-      name: "Dr. Sarah Wilson",
-      email: "sarah.wilson@university.edu",
-      phone: "+1-555-0002",
+      name: "Mrs. Sunita",
+      email: "sunita@university.edu",
+      phone: "76XXXXXX71",
       role: "department_head",
       department: "Computer Science",
       status: "active",
@@ -148,9 +148,9 @@ export function UserManagement() {
     },
     {
       id: "3",
-      name: "Prof. Michael Brown",
-      email: "michael.brown@university.edu",
-      phone: "+1-555-0003",
+      name: "Dr. Sonali",
+      email: "sonali@university.edu",
+      phone: "87XXXXXX21",
       role: "faculty",
       department: "Computer Science",
       status: "active",
@@ -160,9 +160,9 @@ export function UserManagement() {
     },
     {
       id: "4",
-      name: "Alice Coordinator",
-      email: "alice.coord@university.edu",
-      phone: "+1-555-0004",
+      name: "Mrs. Vijyaya",
+      email: "vijyaya@university.edu",
+      phone: "88XXXXXX78",
       role: "coordinator",
       department: "Academic Affairs",
       status: "active",
@@ -172,9 +172,9 @@ export function UserManagement() {
     },
     {
       id: "5",
-      name: "Bob Student",
-      email: "bob.student@university.edu",
-      phone: "+1-555-0005",
+      name: "Dr. Sonali",
+      email: "sonali@university.edu",
+      phone: "88XXXXXX81",
       role: "student",
       department: "Computer Science",
       status: "pending",
@@ -383,17 +383,17 @@ export function UserManagement() {
 
   const renderActivityLog = () => {
     const activities = [
-      { id: 1, user: "John Admin", action: "Created new user", target: "Bob Student", time: "2 hours ago" },
+      { id: 1, user: "Prof. Tanuja", action: "Created new user", target: "Bob Student", time: "2 hours ago" },
       {
         id: 2,
-        user: "Dr. Sarah Wilson",
+        user: "Dr. Rakshita",
         action: "Updated role permissions",
         target: "Faculty Role",
         time: "4 hours ago",
       },
-      { id: 3, user: "Alice Coordinator", action: "Deactivated user", target: "Old Faculty", time: "1 day ago" },
-      { id: 4, user: "John Admin", action: "Modified system settings", target: "User Permissions", time: "2 days ago" },
-      { id: 5, user: "Dr. Sarah Wilson", action: "Bulk imported users", target: "25 new students", time: "3 days ago" },
+      { id: 3, user: "Mrs. Sunita", action: "Deactivated user", target: "Old Faculty", time: "1 day ago" },
+      { id: 4, user: "Mr. Vaibhav", action: "Modified system settings", target: "User Permissions", time: "2 days ago" },
+      { id: 5, user: "Dr. Sonali", action: "Bulk imported users", target: "25 new students", time: "3 days ago" },
     ]
 
     return (

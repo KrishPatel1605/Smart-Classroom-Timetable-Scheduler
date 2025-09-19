@@ -43,12 +43,12 @@ export function AnalyticsCenter() {
 
   // Mock data for charts
   const facultyWorkloadData = [
-    { name: "Dr. Smith", hours: 18, maxHours: 20, efficiency: 90 },
-    { name: "Prof. Johnson", hours: 22, maxHours: 20, efficiency: 85 },
-    { name: "Dr. Wilson", hours: 16, maxHours: 20, efficiency: 95 },
-    { name: "Dr. Brown", hours: 20, maxHours: 20, efficiency: 88 },
-    { name: "Prof. Davis", hours: 19, maxHours: 20, efficiency: 92 },
-    { name: "Dr. Miller", hours: 15, maxHours: 20, efficiency: 87 },
+    { name: "Mrs. Sunita", hours: 18, maxHours: 20, efficiency: 90 },
+    { name: "Prof. Vijya", hours: 22, maxHours: 20, efficiency: 85 },
+    { name: "Dr. Sonali", hours: 16, maxHours: 20, efficiency: 95 },
+    { name: "Mr. Vaibhav", hours: 20, maxHours: 20, efficiency: 88 },
+    { name: "Prof. Tanuja", hours: 19, maxHours: 20, efficiency: 92 },
+    { name: "Dr. Rakshita", hours: 15, maxHours: 20, efficiency: 87 },
   ]
 
   const roomUtilizationData = [
@@ -81,9 +81,9 @@ export function AnalyticsCenter() {
       id: 1,
       type: "Faculty Overload",
       priority: "High",
-      description: "Prof. Johnson has 22 hours/week (exceeds 20h limit)",
+      description: "Dr. Rakshita has 22 hours/week (exceeds 20h limit)",
       impact: "Reduce faculty stress, improve teaching quality",
-      action: "Redistribute 2 hours to Dr. Miller",
+      action: "Redistribute 2 hours to Dr. Sonali",
     },
     {
       id: 2,
@@ -235,14 +235,14 @@ export function AnalyticsCenter() {
               <div className="flex items-center gap-3 p-3 bg-red-50 dark:bg-red-950/20 rounded-lg">
                 <AlertTriangle className="h-4 w-4 text-red-600" />
                 <div className="flex-1">
-                  <p className="text-sm font-medium">Prof. Johnson - Overloaded</p>
+                  <p className="text-sm font-medium">Dr. Rakshita - Overloaded</p>
                   <p className="text-xs text-muted-foreground">22h/week (exceeds 20h limit)</p>
                 </div>
               </div>
               <div className="flex items-center gap-3 p-3 bg-yellow-50 dark:bg-yellow-950/20 rounded-lg">
                 <Clock className="h-4 w-4 text-yellow-600" />
                 <div className="flex-1">
-                  <p className="text-sm font-medium">Dr. Miller - Underutilized</p>
+                  <p className="text-sm font-medium">Prof. Tanuja - Underutilized</p>
                   <p className="text-xs text-muted-foreground">15h/week (can take 5h more)</p>
                 </div>
               </div>

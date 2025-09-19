@@ -59,7 +59,7 @@ export function TimetableViewer() {
     "Monday-1": {
       id: "m1",
       subject: "Data Structures",
-      faculty: "Dr. Smith",
+      faculty: "Mrs. Vijyaya",
       room: "A-101",
       type: "theory",
       duration: 1,
@@ -68,7 +68,7 @@ export function TimetableViewer() {
     "Monday-2": {
       id: "m2",
       subject: "Database Systems",
-      faculty: "Prof. Johnson",
+      faculty: "Mrs. Sunita",
       room: "A-102",
       type: "theory",
       duration: 1,
@@ -77,7 +77,7 @@ export function TimetableViewer() {
     "Monday-5": {
       id: "m5",
       subject: "Programming Lab",
-      faculty: "Dr. Wilson",
+      faculty: "Dr. Rakshita",
       room: "Lab-1",
       type: "lab",
       duration: 2,
@@ -86,7 +86,7 @@ export function TimetableViewer() {
     "Tuesday-1": {
       id: "t1",
       subject: "Algorithms",
-      faculty: "Dr. Brown",
+      faculty: "Prof. Tanuja",
       room: "A-103",
       type: "theory",
       duration: 1,
@@ -95,7 +95,7 @@ export function TimetableViewer() {
     "Tuesday-3": {
       id: "t3",
       subject: "Software Engineering",
-      faculty: "Prof. Davis",
+      faculty: "Dr. Sonali",
       room: "A-104",
       type: "theory",
       duration: 1,
@@ -105,7 +105,7 @@ export function TimetableViewer() {
     "Wednesday-2": {
       id: "w2",
       subject: "Computer Networks",
-      faculty: "Dr. Miller",
+      faculty: "Mr. Vaibhav",
       room: "A-105",
       type: "theory",
       duration: 1,
@@ -114,7 +114,7 @@ export function TimetableViewer() {
     "Thursday-1": {
       id: "th1",
       subject: "Operating Systems",
-      faculty: "Prof. Garcia",
+      faculty: "Dr. Rakshita",
       room: "A-106",
       type: "theory",
       duration: 1,
@@ -123,7 +123,7 @@ export function TimetableViewer() {
     "Friday-4": {
       id: "f4",
       subject: "Database Lab",
-      faculty: "Prof. Johnson",
+      faculty: "Mrs. Sunita",
       room: "Lab-2",
       type: "lab",
       duration: 2,
@@ -259,7 +259,7 @@ export function TimetableViewer() {
   const renderFacultyView = () => (
     <div className="space-y-4">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {["Dr. Smith", "Prof. Johnson", "Dr. Wilson", "Dr. Brown", "Prof. Davis", "Dr. Miller"].map((faculty) => (
+        {["Mrs. Sunita", "Prof. Vijya", "Dr. Sonali", "Mr. Vaibhav", "Prof. Tanuja", "Dr. Rakshita"].map((faculty) => (
           <Card key={faculty}>
             <CardHeader className="pb-3">
               <CardTitle className="text-base">{faculty}</CardTitle>
